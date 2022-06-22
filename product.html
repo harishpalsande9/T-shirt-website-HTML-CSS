@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All product</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" alt="" width="125">
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" alt="" width="30px" height="30px">
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+
+        </div>
+
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2> All Product</h2>
+            <select name="" id="">
+                <option value=""> Defoult shorting</option>
+                <option value=""> Short by price </option>
+                <option value=""> Short by Popularity</option>
+                <option value=""> Short by rating</option>
+                <option value=""> Short by Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4> Customise your 13‑inch MacBook Pro - Space Grey</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> Rs.50,000</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4> Apple MacBook Air with M1 chip</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> Rs.55,00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4> Apple M1 chip with 8‑core CPU, 7‑core
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> Rs.50,000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4> Apple M1 chip with 8‑core CPU, 7‑core
+                </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> Rs.50,000</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Downlod Our App</h3>
+                    <p> Downlod our android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png" alt="">
+                    <p> Font Awesome CDN is the Awesome on your website or app,
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3> Downlod Our App</h3>
+                    <ul>
+                        <li> Coupons</li>
+                        <li> Blog</li>
+                        <li> Return Policy</li>
+                        <li> Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3> Follw us</h3>
+                    <ul>
+                        <li> FaceBook</li>
+                        <li> Instagram</li>
+                        <li> Tweiter</li>
+                        <li> lite</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--js-->
+    <script>
+        var menuitem = document.getElementById("menuitem")
+        menuitem.style.maxHeight = "0px"
+
+        function menutoggle() {
+            if (menuitem.style.maxHeight == "0px") {
+                menuitem.style.maxHeight = "200px";
+            }
+            else {
+                menuitem.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
